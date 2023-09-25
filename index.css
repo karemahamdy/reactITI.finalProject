@@ -1,0 +1,178 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+body {
+  color: rgb(214, 0, 0);
+  margin: 0;
+}
+html {
+  scroll-behavior:smooth;
+  align-items: center;
+
+}
+.container {
+  padding: 0 0px;
+  margin: 0 ;
+}
+ul {
+  
+
+  display: flex;
+  
+  list-style-type: none;
+  
+
+  font-size: x-large;
+}
+
+
+a {
+  /* color: white; */
+  text-decoration:wavy;
+  display: flex;
+  list-style-type: none;
+  width: auto;
+gap: 20px;
+margin-left: 200px;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+      transition: width 0.8s; 
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+      transition: width 0.8s;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+      width: auto;
+      transition: width 0.8s;
+  }
+}
+
+Header {
+  background-image:url(https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2022/09/26053616/Make-matters-history-and-logo-meaning-of-Mercedes-Benz-B-AR-2692022.jpg);
+  height: 1000px;
+  background-size:cover;
+  width:auto;
+  background-repeat: no-repeat;
+}
+
+h4{
+font-size:100px;
+color:rgb(147, 178, 236);
+text-shadow: 7px 7px 10px rgb(37, 56, 92);
+margin-left: 50px;
+}
+
+h5{
+margin-top: 5px;
+display: flex;
+flex-direction: column-reverse;
+border-radius: 10px;
+}
+
+footer {
+  background-color: rgba(174, 194, 206, 0.87);
+  
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  flex-direction: row-reverse;
+  height: 100px;
+}
+header .container .links {
+  display: flex;
+  text-align: center;
+  justify-content:flex-start;
+  letter-spacing: 10px;
+  
+}
+
+
+header .container span {
+  height: 50%;
+}
+header .container span a {
+  font-weight: bold;
+  color: white;
+}
+.container .home {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  justify-content:space-between;
+  grid-gap: 15px;
+  margin: 10px 0;
+
+}
+@media (max-width: 1200px) {
+  .container .home {
+      grid-template-columns: repeat(3 , 1fr);
+  }
+}
+@media (max-width: 992px) {
+  .container .home{
+      grid-template-columns: repeat(2 , 1fr);
+  }
+}
+
+
+.container .home .item {
+  display: grid;
+
+  align-items: center;
+  background-color: rgba(174, 194, 206, 0.87);
+  color: black;
+padding: 5px;
+box-shadow: 5px 7px 10px rgb(131, 128, 128);
+border-radius: 5px;
+text-align: center;
+}
+.container .home .item img {
+  max-width: 90%;
+}
+.container .home .item h2 {
+  max-width: 90%;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.container .home .item button {
+  width:100%;
+  font-size:large;
+  font-weight:bold;
+  margin-bottom: 15px;
+  box-shadow: 7px 7px 10px rgb(165, 162, 162);
+  border-radius: 5px;
+ justify-content: center;
+ padding: 2px;
+}
+
+.container .home .item p {
+  max-width: 90%;
+  font-size: 10px;
+  font-weight:normal;
+  margin-top: 0px;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  flex-direction: row-reverse;
+  height: 100px;
+}
